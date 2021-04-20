@@ -23,6 +23,7 @@ demo效果 如下
       :options="options"
       :useOptions="useKql"
     >
+
     <!--<template #default="{ prop }">
         <li
           v-for="(item, index) in options"
@@ -34,6 +35,7 @@ demo效果 如下
           ><span>{{ item.desc }}</span>
         </li>
      </template>-->
+     
 </selector>
 
 输入触发inputCondition，选择触发selectCondition，options为下拉列表数组，useOption为false即可关闭下拉功能，注释部分的li标签可以自己写子元素和自定义样式。
